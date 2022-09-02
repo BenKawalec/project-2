@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AaronWilson113/Project-2.git"
+    "url": "git+https://github.com/BenKawalec/project-2.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AaronWilson113/Project-2/issues"
+    "url": "https://github.com/BenKawalec/project-2/issues"
   },
-  "homepage": "https://github.com/AaronWilson113/Project-2#readme",
+  "homepage": "https://github.com/BenKawalec/project-2#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.4",

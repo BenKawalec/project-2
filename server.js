@@ -57,5 +57,5 @@ app.use(routes);
 
 //turns on our app and sends our optional confirmation out after we use sequelize.sync to sync our database
 sequelize.sync().then(() => {
-    app.listen(PORT, () => console.log('Now listening'));
+    app.listen(process.env.PORT, () => console.log('Now listening'));
   });

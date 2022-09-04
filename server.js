@@ -12,7 +12,7 @@ require('dotenv').config();
 
 //sets up my server object
 const app = express();
-const PORT = 3001;
+const PORT = process.env.PORT || 5000;
 
 
 //setting up handlebars
@@ -57,5 +57,5 @@ app.use(routes);
 
 //turns on our app and sends our optional confirmation out after we use sequelize.sync to sync our database
 sequelize.sync().then(() => {
-    app.listen(process.env.PORT || 3000, () => console.log('Now listening'));
+    app.listen(PORT, () => console.log('Now listening'));
   });
